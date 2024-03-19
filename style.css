@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+}
+
+header ul {
+  display: flex;
+  margin-left: auto;
+  color: white;
+}
+
+header img {
+  height: auto;
+  max-width: 15%;
+}
+
+.section-one {
+  background-color: #1f2937;
+}
