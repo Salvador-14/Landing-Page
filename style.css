@@ -1,4 +1,5 @@
-body {
+.center-content {
+  margin: 0 100px;
 }
 
 .section-one {
@@ -36,11 +37,11 @@ header img {
 
 .heading h1 {
   font-size: 48px;
-  margin: 0 
+  margin: 0;
 }
 
 .heading p {
-  font-size: 18px;
+  font-size: 16px;
   color: #e5e7eb;
 }
 
@@ -56,8 +57,34 @@ header img {
 
 .heading button {
   padding: 4px 15px;
-  background-color: #3e86fc;
+  background-color: #3882F6;
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.explore-worlds {
+  display: flex;
+  justify-content: space-around;
+}
+
+.explore-worlds img {
+  height: auto;
+  width: 250px;
+}
+
+.explore-worlds div {
+  flex: 1;
+  text-align: center;
+}
+
+.explore-worlds {
+  font-size: 14px;
 }
