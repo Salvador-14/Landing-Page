@@ -63,7 +63,7 @@ header img {
   border-radius: 5px;
 }
 
-h1 {
+.section-two h1 {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
@@ -87,4 +87,15 @@ h1 {
 
 .explore-worlds {
   font-size: 14px;
+}
+
+.section-three {
+  margin-top: 150px;
+  background-color: #e5e7eb;
+}
+
+.section-three div {
+  padding: 100px;
+  font: 36px light italic;
+  color: #1f2937;
 }
